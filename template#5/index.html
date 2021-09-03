@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tajam</title>
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link
+        href="https://fonts.googleapis.com/css?family=Hammersmith+One|Playfair+Display:400,400i,700,700i,900,900i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- header -->
+    <header class="header">
+        <div class="wrapper">
+            <div class="header__content">
+                <!-- logo -->
+                <div class="logo">
+                    <img src="media/img/logo-icon.png" alt="Логотип Tajam" class="logo__icon">
+                    <span class="logo__name">tajam</span>
+                </div>
+                <!-- /logo -->
+
+                <!-- menu -->
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a href="" class="menu__link menu__link_active">HOME</a>
+                        </li>
+
+                        <li class="menu__item">
+                            <a href="" class="menu__link">ABOUT</a>
+                        </li>
+
+                        <li class="menu__item">
+                            <a href="" class="menu__link">EXPERTISE</a>
+                        </li>
+
+                        <li class="menu__item">
+                            <a href="" class="menu__link">TEAMS</a>
+                        </li>
+
+                        <li class="menu__item">
+                            <a href="" class="menu__link">WORKS</a>
+                        </li>
+
+                        <li class="menu__item">
+                            <a href="" class="menu__link">PEOPLE SAY</a>
+                        </li>
+
+                        <li class="menu__item">
+                            <a href="" class="menu__link">CONTACT</a>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- /menu -->
+            </div>
+        </div>
+    </header>
+    <!-- /header -->
+
+    <!-- header-background -->
+    <div class="header-background">
+        <div class="overlay">
+            <div class="wrapper">
+                <div class="header-background__content">
+                    <div class="header-background__title">
+                        We Are Awesome Creative Agency
+                    </div>
+
+                    <hr class="header-background__line line">
+
+                    <div class="header-background__text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque corrupti dolor ducimus
+                        deserunt culpa
+                        cumque, iure ab delectus voluptas provident asperiores possimus iusto rerum hic? Harum totam
+                        placeat reiciendis
+                        perspiciatis soluta quaerat, sunt odit nostrum expedita cum voluptates, non impedit nihil a
+                        sint, distinctio
+                        omnis assumenda nesciunt officia veniam iste ipsa fugit.
+                    </div>
+
+                    <a href="" class="header-background__btn-more btn-more">LEARN MORE</a>
+
+                    <!-- slider -->
+                    <div class="slider">
+                        <span class="slider__circle slider__circle_active"></span>
+                        <span class="slider__circle"></span>
+                        <span class="slider__circle"></span>
+                        <span class="slider__circle"></span>
+                    </div>
+                    <!-- /slider -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /header-background -->
+
+    <!-- our story section -->
+    <section class="our-story">
+        <div class="wrapper">
+            <div class="our-story__content">
+                <div class="our-story__img">
+                    <img src="media/img/our-story.png" alt="Логотип tajam">
+                </div>
+
+                <div class="our-story__desk">
+                    <h1 class="our-story__title title">OUR STORY</h1>
+
+                    <p class="our-story__text">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci tempore
+                        amet nulla itaque! Voluptas quisquam exercitationem molestiae aliquid ipsa repellendus quas
+                        quidem eum officia
+                        ab omnis alias animi id debitis doloribus veritatis, odit nobis.
+                    </p>
+
+                    <p class="our-story__text">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci tempore
+                        amet nulla itaque! Voluptas quisquam exercitationem molestiae aliquid ipsa repellendus quas
+                        quidem eum officia
+                        ab omnis alias animi id debitis doloribus veritatis, odit nobis.
+                    </p>
+
+                    <a href="" class="btn-more">LEARN MORE</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /our story section -->
+
+    <!-- watch our story section -->
+    <section class="watch-our-story">
+        <div class="wrapper">
+            <!-- video -->
+            <video id="video" class="video" muted loop controls="controls">
+                <source src="media/video/Природа.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+                Тег video не поддерживается вашим браузером.
+                <a href="video/Природа.mp4">Скачайте видео</a>.
+            </video>
+            <!-- /video -->
+        </div>
+
+        <!-- video-poster -->
+        <div id="video-poster" class="video-poster">
+            <div class="overlay">
+                <div class="video-poster__content">
+                    <span class="video-poster__play" id="video_play" onclick="playVideo();"></span>
+                    <p class="video-poster__name">WATCH OUR STORY</p>
+                </div>
+            </div>
+        </div>
+        <!-- /video-poster -->
+    </section>
+    <!-- /watch our story section -->
+
+    <!-- expertise section -->
+    <section class="expertise">
+        <div class="wrapper">
+            <div class="expertise__content">
+                <!-- box-title -->
+                <div class="expertise__box-title box-title">
+                    <h3 class="box-title__title">EXPERTISE</h3>
+                    <p class="box-title__text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </p>
+                    <hr class="box-title__line">
+                </div>
+                <!-- /box-title -->
+
+                <!-- expertise-list -->
+                <ul class="expertise-list">
+                    <li class="expertise-list__item">
+                        <div class="expertise-list__block-img">
+                            <img src="media/img/pc-icon.png" alt="Иконка компьютера" class="expertise-list__icon">
+                        </div>
+
+                        <h3 class="expertise-list__title">WEB DESIGN & DEVELOPMENT</h3>
+                        <p class="expertise-list__text">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi soluta,
+                            id velit reprehenderit vitae libero cupiditate quasi quaerat.
+                        </p>
+                    </li>
+
+                    <li class="expertise-list__item">
+                        <div class="expertise-list__block-img">
+                            <img src="media/img/brush-icon.png" alt="Иконка кисточки" class="expertise-list__icon">
+                        </div>
+
+                        <h3 class="expertise-list__title">WEB DESIGN & DEVELOPMENT</h3>
+                        <p class="expertise-list__text">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi soluta,
+                            id velit reprehenderit vitae libero cupiditate quasi quaerat.
+                        </p>
+                    </li>
+
+                    <li class="expertise-list__item">
+                        <div class="expertise-list__block-img">
+                            <img src="media/img/telephone-icon.png" alt="Иконка телефона" class="expertise-list__icon">
+                        </div>
+
+                        <h3 class="expertise-list__title">WEB DESIGN & DEVELOPMENT</h3>
+                        <p class="expertise-list__text">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi soluta,
+                            id velit reprehenderit vitae libero cupiditate quasi quaerat.
+                        </p>
+                    </li>
+
+                    <li class="expertise-list__item">
+                        <div class="expertise-list__block-img">
+                            <img src="media/img/optimization-icon.png" alt="Иконка оптимизации"
+                                class="expertise-list__icon">
+                        </div>
+
+                        <h3 class="expertise-list__title">WEB DESIGN & DEVELOPMENT</h3>
+                        <p class="expertise-list__text">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi soluta,
+                            id velit reprehenderit vitae libero cupiditate quasi quaerat.
+                        </p>
+                    </li>
+
+                    <li class="expertise-list__item">
+                        <div class="expertise-list__block-img">
+                            <img src="media/img/game-icon.png" alt="Иконка игры" class="expertise-list__icon">
+                        </div>
+
+                        <h3 class="expertise-list__title">WEB DESIGN & DEVELOPMENT</h3>
+                        <p class="expertise-list__text">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi soluta,
+                            id velit reprehenderit vitae libero cupiditate quasi quaerat.
+                        </p>
+                    </li>
+
+                    <li class="expertise-list__item">
+                        <div class="expertise-list__block-img">
+                            <img src="media/img/love-icon.png" alt="Иконка серднчки" class="expertise-list__icon">
+                        </div>
+                        <h3 class="expertise-list__title">WEB DESIGN & DEVELOPMENT</h3>
+                        <p class="expertise-list__text">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi soluta,
+                            id velit reprehenderit vitae libero cupiditate quasi quaerat.
+                        </p>
+                    </li>
+                </ul>
+                <!-- /expertise-list -->
+            </div>
+        </div>
+    </section>
+    <!-- /expertise section -->
+
+    <!-- team -->
+    <section class="team">
+        <div class="overlay">
+            <div class="wrapper">
+                <div class="team__content">
+                    <!-- box-title -->
+                    <div class="team-content__box-title box-title">
+                        <h3 class="team-content__title box-title__title">MEET OUR AMAZING TEAM</h3>
+                        <p class="team-content__text box-title__text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        </p>
+                        <hr class="team-content__line box-title__line">
+                    </div>
+                    <!-- /box-title -->
+
+                    <!-- team-cards -->
+                    <div class="team-cards team-cards_margin_bottom">
+                        <div class="team-cards__item">
+                            <div class="team-cards__block-img">
+                                <img class="team-cards__img" src="" alt="">
+                            </div>
+
+                            <div class="team-cards__block-desk">
+                                <p class="team-cards__name">SEMF USUK</p>
+                                <p class="team-cards__prof">CEO & FOUNDER</p>
+                            </div>
+                        </div>
+
+                        <div class="team-cards__item">
+                            <div class="team-cards__block-img">
+                                <img class="team-cards__img" src="" alt="">
+                            </div>
+
+                            <div class="team-cards__block-desk">
+                                <p class="team-cards__name">SEMF USUK</p>
+                                <p class="team-cards__prof">CEO & FOUNDER</p>
+                            </div>
+                        </div>
+
+                        <div class="team-cards__item">
+                            <div class="team-cards__block-img">
+                                <img class="team-cards__img" src="" alt="">
+                            </div>
+
+                            <div class="team-cards__block-desk">
+                                <p class="team-cards__name">SEMF USUK</p>
+                                <p class="team-cards__prof">CEO & FOUNDER</p>
+                            </div>
+                        </div>
+
+                        <div class="team-cards__item">
+                            <div class="team-cards__block-img">
+                                <img class="team-cards__img" src="" alt="">
+                            </div>
+
+                            <div class="team-cards__block-desk">
+                                <p class="team-cards__name">SEMF USUK</p>
+                                <p class="team-cards__prof">CEO & FOUNDER</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /team-cards -->
+
+                    <p class="team__text">
+                        Become part of our dream team, let’s join us !
+                    </p>
+
+                    <a href="" class="team__btn-more btn-more">WE ARE HIRING</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /team -->
+
+    <!-- our works -->
+    <section class="our-works">
+        <div class="our-works__header">
+            <!-- our-works-header -->
+            <div class="wrapper">
+                <div class="our-works-header">
+                    <div class="our-works-header__title">OUR WORKS</div>
+                    <a href="" class="our-works-header__btn">
+                        See All Project in dribbble
+                    </a>
+                </div>
+            </div>
+            <!-- /our-works-header -->
+        </div>
+
+        <!-- our-works__galery -->
+        <div class="our-works__galery">
+            <div class="our-works-galery">
+                <div class="our-works-galery__item"></div>
+                <div class="our-works-galery__item"></div>
+                <div class="our-works-galery__item"></div>
+                <div class="our-works-galery__item"></div>
+                <div class="our-works-galery__item"></div>
+                <div class="our-works-galery__item"></div>
+                <div class="our-works-galery__item"></div>
+                <div class="our-works-galery__item"></div>
+                <div class="our-works-galery__item"></div>
+                <div class="our-works-galery__item"></div>
+                <div class="our-works-galery__item"></div>
+                <div class="our-works-galery__item"></div>
+            </div>
+        </div>
+        <!-- /our-works__galery -->
+
+        <a href="" class="btn-more">LOAD MORE</a>
+    </section>
+    <!-- /our works -->
+
+    <!-- review -->
+    <section class="review">
+        <div class="overlay">
+            <div class="wrapper">
+                <div class="review__content">
+                    <!-- user-review -->
+                    <div class="user-review">
+                        <span class="user-review__sign">“</span>
+                        <p class="user-review__text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Exercitationem laboriosam cumque explicabo molestiae veniam
+                            totam sed recusandae illum fugiat necessitatibus. Numquam non
+                            aperiam perspiciatis voluptates. Temporibus quas nisi voluptas
+                            quidem asperiores doloribus, est repudiandae veniam enim possimus
+                            impedit eos perferendis numquam aut optio id atque dolor magni
+                            reprehenderit magnam iste!
+                        </p>
+                        <p class="user-review__name">JANE GALADRIEL</p>
+                        <p class="user-review__prof">CEO TENGKUREP</p>
+                    </div>
+                    <!-- /user-review -->
+
+                    <!-- user-review-control -->
+                    <div class="user-review-control">
+                        <img src="media/img/back.png" alt="Предыдущий" class="user-review-control__arrow-back">
+
+                        <ul class="user-review-control__list">
+                            <li class="user-review-control__item">
+                                <img src="media/img/user1.png" alt="Пользователь" class="user-review-control__pic">
+                            </li>
+
+                            <li class="user-review-control__item">
+                                <img src="media/img/user1.png" alt="Пользователь" class="user-review-control__pic">
+                            </li>
+
+                            <li class="user-review-control__item user-review-control__item_active">
+                                <img src="media/img/user2.png" alt="Пользователь" class="user-review-control__pic">
+                            </li>
+
+                            <li class="user-review-control__item">
+                                <img src="media/img/user1.png" alt="Пользователь" class="user-review-control__pic">
+                            </li>
+
+                            <li class="user-review-control__item">
+                                <img src="media/img/user1.png" alt="Пользователь" class="user-review-control__pic">
+                            </li>
+                        </ul>
+
+                        <img src="media/img/forward.png" alt="Следующий" class="user-review-control__arrow-forward">
+                    </div>
+                    <!-- /user-review-control -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /review -->
+
+    <!-- contacts-and-sponsors -->
+    <section class="contacts-and-sponsors">
+        <div class="wrapper">
+            <div class="contacts-and-sponsors__content">
+
+                <!-- contacts -->
+                <div class="contacts">
+                    <h3 class="title contacts__title">GIVE US A GOOD NEWS</h3>
+
+                    <form action="" class="contacts__form">
+                        <input type="text" class="contacts__input" placeholder="Name">
+                        <input type="text" class="contacts__input" placeholder="Email">
+                        <input type="text" class="contacts__input" placeholder="Subject">
+
+                        <textarea name="" class="contacts__textarea" placeholder="Your message"></textarea>
+
+                        <input type="submit" class="contacts__submit btn-more" value="SUBMIT">
+                    </form>
+                </div>
+                <!-- /contacts -->
+
+                <!-- sponsors -->
+                <div class="sponsors">
+                    <h3 class="title sponsors__title">OUR HAPPY CLIENT</h3>
+
+                    <div class="sponsors__list">
+                        <div class="sponsors__item">
+                            <img src="media/img/Zara_Logo.png" class="sponsors__logo">
+                        </div>
+
+                        <div class="sponsors__item">
+                            <img src="media/img/Logo_of_Mango.png" class="sponsors__logo">
+                        </div>
+
+                        <div class="sponsors__item">
+                            <img src="media/img/Barneys_New_York.png" class="sponsors__logo">
+                        </div>
+
+                        <div class="sponsors__item">
+                            <img src="media/img/Gucci.png" class="sponsors__logo">
+                        </div>
+
+                        <div class="sponsors__item">
+                            <img src="media/img/Calvin_klein.png" class="sponsors__logo">
+                        </div>
+
+                        <div class="sponsors__item">
+                            <img src="media/img/NIKE.png" class="sponsors__logo">
+                        </div>
+
+                        <div class="sponsors__item">
+                            <img src="media/img/Converse.png" class="sponsors__logo">
+                        </div>
+
+                        <div class="sponsors__item">
+                            <img src="media/img/Puma.png" class="sponsors__logo">
+                        </div>
+
+                        <div class="sponsors__item">
+                            <img src="media/img/Levis.png" class="sponsors__logo">
+                        </div>
+
+                        <div class="sponsors__item">
+                            <img src="media/img/Billabong.png" class="sponsors__logo">
+                        </div>
+                    </div>
+                </div>
+                <!-- /sponsors -->
+
+            </div>
+        </div>
+    </section>
+    <!-- /contacts-and-sponsors -->
+
+    <footer class="footer">
+        <div class="overlay">
+            <div class="wrapper">
+                <div class="footer__content">
+                    <div class="footer__top-block">
+                        <div class="footer-top">
+                            <div class="footer-top__block">
+                                <div class="footer-top__header">
+                                    <!-- logo -->
+                                    <div class="logo">
+                                        <img src="media/img/logo-icon.png" alt="Логотип Tajam" class="logo__icon">
+                                        <span class="logo__name">tajam</span>
+                                    </div>
+                                    <!-- /logo -->
+                                </div>
+
+                                <p class="footer-top__text">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                    Harum ipsam aspernatur possimus eos esse, labore quasi optio qui,
+                                    quas libero tempore ab? Deleniti exercitationem mollitia necessitatibus facere.
+                                </p>
+                            </div>
+
+                            <div class="footer-top__block">
+                                <div class="footer-top__header">
+                                    <h3 class="title footer-top__title">OUR STUDIO</h3>
+                                </div>
+
+                                <div class="text-with-pic">
+                                    <div class="text-with-pic__block">
+                                        <img src="media/img/local.png" alt="" class="text-with-pic__pic">
+
+                                        <p class="text-with-pic__text">
+                                            Ruko cucruk, Jl. Radio luar dalem jos
+                                            No.12 - 13, Kalideres - Jakarta Barat<br>
+                                            11480 - Indonesia
+                                        </p>
+                                    </div>
+
+                                    <div class="text-with-pic__block">
+                                        <img src="media/img/phone.png" alt="" class="text-with-pic__pic">
+
+                                        <p class="text-with-pic__text">
+                                            (+62) 21-2224 3333
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="footer-top__block">
+                                <div class="footer-top__header">
+                                    <h3 class="title footer-top__title">STAY IN TOUCH</h3>
+                                </div>
+
+                                <div class="footer-top__subscribe subscribe">
+                                    <form action="">
+                                        <input type="text" class="subscribe__input"
+                                            placeholder="Subscribe our newsletter">
+                                        <input type="submit" class="subscribe__btn" value="">
+                                    </form>
+                                </div>
+
+                                <div class="social">
+                                    <div class="social__facebook">
+                                        <a href=""></a>
+                                    </div>
+
+                                    <div class="social__twitter">
+                                        <a href=""></a>
+                                    </div>
+
+                                    <div class="social__world">
+                                        <a href=""></a>
+                                    </div>
+
+                                    <div class="social__instagram">
+                                        <a href=""></a>
+                                    </div>
+
+                                    <div class="social__google">
+                                        <a href=""></a>
+                                    </div>
+
+                                    <div class="social__youtube">
+                                        <a href=""></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="footer__bottom-block">
+                        <div class="footer-bottom">
+                            <ul class="footer-bottom__list">
+                                <li class="footer-bottom__item">                 
+                                    <a href="" class="footer-bottom__link">HELP</a>
+                                </li>
+
+                                <li class="footer-bottom__item">
+                                    <a href="" class="footer-bottom__link">TERMS & CONDITION</a>
+                                </li>
+
+
+                                <li class="footer-bottom__item">
+                                    <a href="" class="footer-bottom__link">PRIVACY</a>
+                                </li>
+                            </ul>
+
+                            <div class="copyrigth">
+                                Copyright © 2015 - Tajem Creative
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+	<p></p>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous">
+        </script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
